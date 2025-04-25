@@ -15,6 +15,59 @@
         </viewElements>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_DFQxcCHvEfCTcoHaZ_sqSg" name="Complaint">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_KHxK4CHvEfCTcoHaZ_sqSg" name="Complaint Page">
+        <annotations text="/complaint"/>
+        <viewElements xsi:type="ext:List" id="_c0_fACHvEfCTcoHaZ_sqSg" name="Complaints">
+          <viewComponentParts xsi:type="core:DataBinding" id="_fUmVACHvEfCTcoHaZ_sqSg" name="List Complain">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_pc2XYCHvEfCTcoHaZ_sqSg" name="complaintSubject" featureConcept="//@domainModel/@domainElements.40"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_1VL3UCHvEfCTcoHaZ_sqSg" name="complaintMessage" featureConcept="//@domainModel/@domainElements.41"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="__U2lcCHvEfCTcoHaZ_sqSg" name="SpecialService">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_BPDoUCHwEfCTcoHaZ_sqSg" name="Special Service Page">
+        <annotations text="/special"/>
+        <viewElements xsi:type="ext:List" id="_G9bgYCHwEfCTcoHaZ_sqSg" name="Special Services">
+          <viewComponentParts xsi:type="core:DataBinding" id="_KZ5nQCHwEfCTcoHaZ_sqSg" name="List Special Service">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_QFtTgCHwEfCTcoHaZ_sqSg" name="id" featureConcept="//@domainModel/@domainElements.4"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_gKzu0CHwEfCTcoHaZ_sqSg" name="details" featureConcept="//@domainModel/@domainElements.29"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_pzZZsCHwEfCTcoHaZ_sqSg" name="Consultation">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_tsa5sCHwEfCTcoHaZ_sqSg" name="Consultation Page">
+        <viewElements xsi:type="ext:List" id="_xZirsCHwEfCTcoHaZ_sqSg" name="Consultations">
+          <annotations text="/consultation"/>
+          <viewComponentParts xsi:type="core:DataBinding" id="_14aDsCHwEfCTcoHaZ_sqSg" name="List Consultation">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_4xLAkCHwEfCTcoHaZ_sqSg" name="subject" featureConcept="//@domainModel/@domainElements.5"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_827VACHwEfCTcoHaZ_sqSg" name="description" featureConcept="//@domainModel/@domainElements.14"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_DR8QoCHxEfCTcoHaZ_sqSg" name="status" featureConcept="//@domainModel/@domainElements.7"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_NdhT0CHxEfCTcoHaZ_sqSg" name="DrugStore">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_Tp4vcCHxEfCTcoHaZ_sqSg" name="DrugStore Page">
+        <viewElements xsi:type="ext:List" id="_XuMSYCHxEfCTcoHaZ_sqSg" name="DrugStore">
+          <annotations text="/drugstore"/>
+          <viewComponentParts xsi:type="core:DataBinding" id="_gDkB4CHxEfCTcoHaZ_sqSg" name="List DrugStore">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_kYjFICHxEfCTcoHaZ_sqSg" name="ListProduct" featureConcept="//@domainModel/@domainElements.50"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_t2EIcCHxEfCTcoHaZ_sqSg" name="cart" featureConcept="//@domainModel/@domainElements.51"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_MXylYCHyEfCTcoHaZ_sqSg" name="Cart Page">
+        <annotations text="/cart"/>
+        <viewElements xsi:type="ext:List" id="_QnOaQCHyEfCTcoHaZ_sqSg" name="Cart">
+          <viewComponentParts xsi:type="core:DataBinding" id="_TNGQUCHyEfCTcoHaZ_sqSg" name="List Cart">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_WrEzECHyEfCTcoHaZ_sqSg" name="drugId" featureConcept="//@domainModel/@domainElements.4"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+    </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_-sn6ESHqEfCTcoHaZ_sqSg">
     <domainElements xsi:type="core:UMLBehavioralFeature" id="_-ssykCHqEfCTcoHaZ_sqSg" name="getId">
