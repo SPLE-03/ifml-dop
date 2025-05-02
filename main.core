@@ -1,260 +1,167 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_-sn6ECHqEfCTcoHaZ_sqSg">
-  <interactionFlowModel id="_U_UgECHrEfCTcoHaZ_sqSg">
-    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_dYiNwCHrEfCTcoHaZ_sqSg" name="Home">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_e_6L4CcoEfCGZLR-5WQt4w">
+  <interactionFlowModel id="_kpPL4CcoEfCGZLR-5WQt4w">
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_kpUEYCcoEfCGZLR-5WQt4w" name="Home">
       <annotations text="/"/>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_sBH84CHtEfCmC-E8H64Kkw" name="Information">
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_y3DS4CHtEfCmC-E8H64Kkw" name="Information Page">
-        <annotations text="/information"/>
-        <viewElements xsi:type="ext:List" id="_0xFWoCHtEfCmC-E8H64Kkw" name="Informations">
-          <viewComponentParts xsi:type="core:DataBinding" id="_ATjUQCHuEfCmC-E8H64Kkw" name="List Information">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_C6VJQCHuEfCmC-E8H64Kkw" name="title" featureConcept="//@domainModel/@domainElements.13"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_I8NzMCHuEfCmC-E8H64Kkw" name="description" featureConcept="//@domainModel/@domainElements.14"/>
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_r2A7oCcoEfCGZLR-5WQt4w" name="Information">
+      <annotations text="/information"/>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_vCdCcCcoEfCGZLR-5WQt4w" name="Information Page" isXOR="true">
+        <viewElements xsi:type="ext:List" id="_6rC2MCcoEfCGZLR-5WQt4w" name="List Information">
+          <viewComponentParts xsi:type="core:DataBinding" id="__MeaACcoEfCGZLR-5WQt4w" name="Informations">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_BjcRYCcpEfCGZLR-5WQt4w" name="title" featureConcept="//@domainModel/@domainElements.9"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_OtxksCcpEfCGZLR-5WQt4w" name="description">
+              <featureConcept href="main2.core#//@domainModel/@domainElements.10"/>
+            </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_DFQxcCHvEfCTcoHaZ_sqSg" name="Complaint">
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_KHxK4CHvEfCTcoHaZ_sqSg" name="Complaint Page">
-        <annotations text="/complaint"/>
-        <viewElements xsi:type="ext:List" id="_c0_fACHvEfCTcoHaZ_sqSg" name="Complaints">
-          <viewComponentParts xsi:type="core:DataBinding" id="_fUmVACHvEfCTcoHaZ_sqSg" name="List Complain">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_pc2XYCHvEfCTcoHaZ_sqSg" name="complaintSubject" featureConcept="//@domainModel/@domainElements.40"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_1VL3UCHvEfCTcoHaZ_sqSg" name="complaintMessage" featureConcept="//@domainModel/@domainElements.41"/>
-          </viewComponentParts>
-        </viewElements>
-      </interactionFlowModelElement>
-    </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="__U2lcCHvEfCTcoHaZ_sqSg" name="SpecialService">
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_BPDoUCHwEfCTcoHaZ_sqSg" name="Special Service Page">
-        <annotations text="/special"/>
-        <viewElements xsi:type="ext:List" id="_G9bgYCHwEfCTcoHaZ_sqSg" name="Special Services">
-          <viewComponentParts xsi:type="core:DataBinding" id="_KZ5nQCHwEfCTcoHaZ_sqSg" name="List Special Service">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_QFtTgCHwEfCTcoHaZ_sqSg" name="id" featureConcept="//@domainModel/@domainElements.4"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_gKzu0CHwEfCTcoHaZ_sqSg" name="details" featureConcept="//@domainModel/@domainElements.29"/>
-          </viewComponentParts>
-        </viewElements>
-      </interactionFlowModelElement>
-    </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_pzZZsCHwEfCTcoHaZ_sqSg" name="Consultation">
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_tsa5sCHwEfCTcoHaZ_sqSg" name="Consultation Page">
-        <viewElements xsi:type="ext:List" id="_xZirsCHwEfCTcoHaZ_sqSg" name="Consultations">
-          <annotations text="/consultation"/>
-          <viewComponentParts xsi:type="core:DataBinding" id="_14aDsCHwEfCTcoHaZ_sqSg" name="List Consultation">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_4xLAkCHwEfCTcoHaZ_sqSg" name="subject" featureConcept="//@domainModel/@domainElements.5"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_827VACHwEfCTcoHaZ_sqSg" name="description" featureConcept="//@domainModel/@domainElements.14"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_DR8QoCHxEfCTcoHaZ_sqSg" name="status" featureConcept="//@domainModel/@domainElements.7"/>
-          </viewComponentParts>
-        </viewElements>
-      </interactionFlowModelElement>
-    </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_NdhT0CHxEfCTcoHaZ_sqSg" name="DrugStore">
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_Tp4vcCHxEfCTcoHaZ_sqSg" name="DrugStore Page">
-        <viewElements xsi:type="ext:List" id="_XuMSYCHxEfCTcoHaZ_sqSg" name="DrugStore">
-          <annotations text="/drugstore"/>
-          <viewComponentParts xsi:type="core:DataBinding" id="_gDkB4CHxEfCTcoHaZ_sqSg" name="List DrugStore">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_kYjFICHxEfCTcoHaZ_sqSg" name="ListProduct" featureConcept="//@domainModel/@domainElements.50"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_t2EIcCHxEfCTcoHaZ_sqSg" name="cart" featureConcept="//@domainModel/@domainElements.51"/>
-          </viewComponentParts>
-        </viewElements>
-      </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_MXylYCHyEfCTcoHaZ_sqSg" name="Cart Page">
-        <annotations text="/cart"/>
-        <viewElements xsi:type="ext:List" id="_QnOaQCHyEfCTcoHaZ_sqSg" name="Cart">
-          <viewComponentParts xsi:type="core:DataBinding" id="_TNGQUCHyEfCTcoHaZ_sqSg" name="List Cart">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_WrEzECHyEfCTcoHaZ_sqSg" name="drugId" featureConcept="//@domainModel/@domainElements.4"/>
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_cxORUCcpEfCGZLR-5WQt4w" name="Consultation">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_e4tiQCcpEfCGZLR-5WQt4w" name="Consultaion Page" isXOR="true">
+        <viewElements xsi:type="ext:List" id="_kaX0ACcpEfCGZLR-5WQt4w" name="Consultations">
+          <viewComponentParts xsi:type="core:DataBinding" id="_mtOncCcpEfCGZLR-5WQt4w" name="List Consultation">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_rV0jMCcpEfCGZLR-5WQt4w" name="subject" featureConcept="//@domainModel/@domainElements.3"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
   </interactionFlowModel>
-  <domainModel id="_-sn6ESHqEfCTcoHaZ_sqSg">
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-ssykCHqEfCTcoHaZ_sqSg" name="getId">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#__h2fQCGlEfCOWu84Fzec_A"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZoCHqEfCTcoHaZ_sqSg" name="update">
+  <domainModel id="_e_6L4ScoEfCGZLR-5WQt4w">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__EYCcoEfCGZLR-5WQt4w" name="update">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_qu9AoCG8EfCOWu84Fzec_A"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZoSHqEfCTcoHaZ_sqSg" name="getStatus">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_LkJfkCG-EfCOWu84Fzec_A"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLDomainConcept" id="_-stZoiHqEfCTcoHaZ_sqSg" name="ConsultationImpl">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_e__rcCcoEfCGZLR-5WQt4w" name="ConsultationImpl">
       <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_MrLOgCG9EfCOWu84Fzec_A"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZoyHqEfCTcoHaZ_sqSg" name="id">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rcScoEfCGZLR-5WQt4w" name="consultationId">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_R1cT8CG9EfCOWu84Fzec_A"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZpCHqEfCTcoHaZ_sqSg" name="subject">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rcicoEfCGZLR-5WQt4w" name="consultationSubject">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_VXv9ECG9EfCOWu84Fzec_A"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZpSHqEfCTcoHaZ_sqSg" name="description">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rcycoEfCGZLR-5WQt4w" name="consultationDescription">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_ZIJskCG9EfCOWu84Fzec_A"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZpiHqEfCTcoHaZ_sqSg" name="status">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rdCcoEfCGZLR-5WQt4w" name="consultationStatus">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_ta2JsCG9EfCOWu84Fzec_A"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZpyHqEfCTcoHaZ_sqSg" name="getId">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_ye55cCG9EfCOWu84Fzec_A"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZqCHqEfCTcoHaZ_sqSg" name="getStatus">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_UB9ZYCG-EfCOWu84Fzec_A"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZqSHqEfCTcoHaZ_sqSg" name="update">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__rdScoEfCGZLR-5WQt4w" name="consultationUpdate">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_cQL_ECG-EfCOWu84Fzec_A"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLDomainConcept" id="_-stZqiHqEfCTcoHaZ_sqSg" name="InformationImpl">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_e__rdicoEfCGZLR-5WQt4w" name="InformationImpl">
       <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_Dkr4MCHKEfCStq4uDT80nw"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZqyHqEfCTcoHaZ_sqSg" name="Id">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rdycoEfCGZLR-5WQt4w" name="informationId">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_FBTAICHKEfCStq4uDT80nw"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZrCHqEfCTcoHaZ_sqSg" name="title">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__reCcoEfCGZLR-5WQt4w" name="informationTitle">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_KPotQCHKEfCStq4uDT80nw"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZrSHqEfCTcoHaZ_sqSg" name="description">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__reScoEfCGZLR-5WQt4w" name="informationDescription">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_jdQp8CHjEfCStq4uDT80nw"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZriHqEfCTcoHaZ_sqSg" name="getId">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_-eHVECHLEfCStq4uDT80nw"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZryHqEfCTcoHaZ_sqSg" name="getDescription">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_rJJXkCHjEfCStq4uDT80nw"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZsCHqEfCTcoHaZ_sqSg" name="getId">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_0h0rECHLEfCStq4uDT80nw"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZsSHqEfCTcoHaZ_sqSg" name="getDescription">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_a5Aw8CHjEfCStq4uDT80nw"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZsiHqEfCTcoHaZ_sqSg" name="callService">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__reicoEfCGZLR-5WQt4w" name="callService">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_K80X0CHUEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZsyHqEfCTcoHaZ_sqSg" name="isAvailable">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__reycoEfCGZLR-5WQt4w" name="isAvailable">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_w64qgCHUEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZtCHqEfCTcoHaZ_sqSg" name="cancelService">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__rfCcoEfCGZLR-5WQt4w" name="cancelService">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_BUhycCHVEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZtSHqEfCTcoHaZ_sqSg" name="getDetails">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__rfScoEfCGZLR-5WQt4w" name="getDetails">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_tjqakCHVEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZtiHqEfCTcoHaZ_sqSg" name="calculatePrice">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__rficoEfCGZLR-5WQt4w" name="calculatePrice">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_wT4fcCHVEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLDomainConcept" id="_-stZtyHqEfCTcoHaZ_sqSg" name="SpecialServicesImpl">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_e__rfycoEfCGZLR-5WQt4w" name="SpecialServicesImpl">
       <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_KjiAACHSEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZuCHqEfCTcoHaZ_sqSg" name="id">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rgCcoEfCGZLR-5WQt4w" name="specialServicesId">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_nmuM8CHTEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZuSHqEfCTcoHaZ_sqSg" name="price">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rgScoEfCGZLR-5WQt4w" name="price">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_LiS8ECHXEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZuiHqEfCTcoHaZ_sqSg" name="distance">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rgicoEfCGZLR-5WQt4w" name="distance">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_OyFR0CHXEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZuyHqEfCTcoHaZ_sqSg" name="available">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rgycoEfCGZLR-5WQt4w" name="available">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_Sly0ACHXEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZvCHqEfCTcoHaZ_sqSg" name="details">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rhCcoEfCGZLR-5WQt4w" name="details">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_Wh42ICHXEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZvSHqEfCTcoHaZ_sqSg" name="calculatePrice">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rhScoEfCGZLR-5WQt4w" name="specialServicesUser">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_eX-yMCbFEfCLasUrN53bvA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__rhicoEfCGZLR-5WQt4w" name="calculatePrice">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_3aUhMCHWEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZviHqEfCTcoHaZ_sqSg" name="isAvailable">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__rhycoEfCGZLR-5WQt4w" name="isAvailable">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_3aVvUCHWEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZvyHqEfCTcoHaZ_sqSg" name="callService">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__riCcoEfCGZLR-5WQt4w" name="callService">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_3aYLkCHWEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZwCHqEfCTcoHaZ_sqSg" name="getDetails">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__riScoEfCGZLR-5WQt4w" name="getDetails">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_3aZZsCHWEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZwSHqEfCTcoHaZ_sqSg" name="cancelService">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__riicoEfCGZLR-5WQt4w" name="cancelService">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_3aaAwCHWEfCP0dNYSf3N4w"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZwiHqEfCTcoHaZ_sqSg" name="getId">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_ccGN8CHbEfCacqaEq2YJJg"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZwyHqEfCTcoHaZ_sqSg" name="submitComplaint">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__riycoEfCGZLR-5WQt4w" name="submitComplaint">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_mN9JkCHbEfCacqaEq2YJJg"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLDomainConcept" id="_-stZxCHqEfCTcoHaZ_sqSg" name="ComplaintServiceImpl">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_e__rjCcoEfCGZLR-5WQt4w" name="ComplaintServiceImpl">
       <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_16yO0CHbEfCacqaEq2YJJg"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZxSHqEfCTcoHaZ_sqSg" name="id">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rjScoEfCGZLR-5WQt4w" name="complaintServiceId">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_5XDhYCHbEfCacqaEq2YJJg"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZxiHqEfCTcoHaZ_sqSg" name="userId">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rjicoEfCGZLR-5WQt4w" name="complaintServiceUser">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_-Zs74CHbEfCacqaEq2YJJg"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZxyHqEfCTcoHaZ_sqSg" name="complaintSubject">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rjycoEfCGZLR-5WQt4w" name="complaintSubject">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_NM1ZACHcEfCacqaEq2YJJg"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-stZyCHqEfCTcoHaZ_sqSg" name="complaintMessage">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rkCcoEfCGZLR-5WQt4w" name="complaintMessage">
       <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_PuVFYCHcEfCacqaEq2YJJg"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZySHqEfCTcoHaZ_sqSg" name="getId">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_SLymUCHcEfCacqaEq2YJJg"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZyiHqEfCTcoHaZ_sqSg" name="submitComplaint">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__rkScoEfCGZLR-5WQt4w" name="submitComplaint">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_uwpG4CHcEfCacqaEq2YJJg"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZyyHqEfCTcoHaZ_sqSg" name="addToCart">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__rkicoEfCGZLR-5WQt4w" name="generate">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_AAEVYCHfEfCXy5btsD0Hyw"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-stZzCHqEfCTcoHaZ_sqSg" name="uploadRecipe">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_a1rs8CHfEfCXy5btsD0Hyw"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-suAsCHqEfCTcoHaZ_sqSg" name="Checkout">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_Ojwy4CHgEfCXy5btsD0Hyw"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-suAsSHqEfCTcoHaZ_sqSg" name="viewCart">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_wugk8CHgEfCXy5btsD0Hyw"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-suAsiHqEfCTcoHaZ_sqSg" name="removeFromCart">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_5AXGYCHgEfCXy5btsD0Hyw"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLDomainConcept" id="_-suAsyHqEfCTcoHaZ_sqSg" name="DrugStoreImpl">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_e__rkycoEfCGZLR-5WQt4w" name="ReportImpl">
       <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_GBmIECHhEfCXy5btsD0Hyw"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-suAtCHqEfCTcoHaZ_sqSg" name="DrugList">
-      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_OOMWECHhEfCXy5btsD0Hyw"/>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rlCcoEfCGZLR-5WQt4w" name="reportId">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_cc9XICadEfClUKKRAzdS9Q"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_-suAtSHqEfCTcoHaZ_sqSg" name="cart">
-      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_bGTQ8CHhEfCXy5btsD0Hyw"/>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rlScoEfCGZLR-5WQt4w" name="reportUser">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_dU654CadEfClUKKRAzdS9Q"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-suAtiHqEfCTcoHaZ_sqSg" name="addToCart">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_fi9CcCHhEfCXy5btsD0Hyw"/>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rlicoEfCGZLR-5WQt4w" name="reportTitle">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_h-OnUCadEfClUKKRAzdS9Q"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-suAtyHqEfCTcoHaZ_sqSg" name="uploadRecipe">
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rlycoEfCGZLR-5WQt4w" name="reportContent">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_zQDUcCadEfClUKKRAzdS9Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_e__rmCcoEfCGZLR-5WQt4w" name="createdAt">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_EsogECaeEfClUKKRAzdS9Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_e__rmScoEfCGZLR-5WQt4w" name="generate">
       <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_gBcVQCHhEfCXy5btsD0Hyw"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-suAuCHqEfCTcoHaZ_sqSg" name="Checkout">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_gdfYECHhEfCXy5btsD0Hyw"/>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_e__rmicoEfCGZLR-5WQt4w" name="UserImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_ottqwCckEfCLasUrN53bvA"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-suAuSHqEfCTcoHaZ_sqSg" name="viewCart">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_g2AlwCHhEfCXy5btsD0Hyw"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_-suAuiHqEfCTcoHaZ_sqSg" name="removeFromCart">
-      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_hi3rwCHhEfCXy5btsD0Hyw"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLDomainConcept" id="_-suAuyHqEfCTcoHaZ_sqSg" name="UUID">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_e__rmycoEfCGZLR-5WQt4w" name="UUID">
       <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_Q89h4CG_EfCOWu84Fzec_A"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLDomainConcept" id="_-suAvCHqEfCTcoHaZ_sqSg" name="Order">
-      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_ge_CUCHgEfCXy5btsD0Hyw"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLDomainConcept" id="_-suAvSHqEfCTcoHaZ_sqSg" name="Cart">
-      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_n4rMsCHgEfCXy5btsD0Hyw"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLDomainConcept" id="_-suAviHqEfCTcoHaZ_sqSg" name="Drug">
-      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_pdLFUCHgEfCXy5btsD0Hyw"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLDomainConcept" id="_-suAvyHqEfCTcoHaZ_sqSg" name="CartItem">
-      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_qybBACHgEfCXy5btsD0Hyw"/>
     </domainElements>
   </domainModel>
 </core:IFMLModel>
