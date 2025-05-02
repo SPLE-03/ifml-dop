@@ -33,6 +33,7 @@
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_FROVQCcqEfCGZLR-5WQt4w" name="Complaint">
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_MZKBQCcqEfCGZLR-5WQt4w" name="Complaint Page" isXOR="true">
+        <annotations text="/complaint"/>
         <viewElements xsi:type="ext:List" id="_X8VwkCcqEfCGZLR-5WQt4w" name="Complaints">
           <viewComponentParts xsi:type="core:DataBinding" id="_buiP0CcqEfCGZLR-5WQt4w" name="List Complaint">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_hTP1kCcqEfCGZLR-5WQt4w" name="complaintSubject" featureConcept="//@domainModel/@domainElements.32"/>
@@ -40,7 +41,88 @@
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_rEftMCcqEfCGZLR-5WQt4w" name="Create Complaint Page"/>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_rEftMCcqEfCGZLR-5WQt4w" name="Create Complaint Page">
+        <annotations text="/complaint/create"/>
+        <viewElements xsi:type="ext:Form" id="_tK-xMCctEfCZQcTCtRSxXQ" name="Create Complaint">
+          <viewComponentParts xsi:type="core:DataBinding" id="_2MlUkCctEfCZQcTCtRSxXQ" name="Complaint Data">
+            <subViewComponentParts xsi:type="ext:SimpleField" id="__uo5oCctEfCZQcTCtRSxXQ" name="complaintSubject">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Crg6cCcuEfCZQcTCtRSxXQ" name="complaintSubject">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </subViewComponentParts>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_BaI8sCcvEfCZQcTCtRSxXQ" name="complaintMessage">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_F_YCcCcvEfCZQcTCtRSxXQ" name="complaintMessage">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </subViewComponentParts>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_uSZaUCcvEfCZQcTCtRSxXQ" name="Report">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_3rVfoCcvEfCZQcTCtRSxXQ" name="Report Page" isXOR="true">
+        <annotations text="/report"/>
+        <viewElements xsi:type="ext:List" id="__l-a8CcvEfCZQcTCtRSxXQ" name="Reports">
+          <viewComponentParts xsi:type="core:DataBinding" id="_JinqQCcwEfCZQcTCtRSxXQ" name="List Report">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_ZctIYCcwEfCZQcTCtRSxXQ" name="reportTitle" featureConcept="//@domainModel/@domainElements.39"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_tD5KYCcwEfCZQcTCtRSxXQ" name="reportContent" featureConcept="//@domainModel/@domainElements.40"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_x4p54CcwEfCZQcTCtRSxXQ" name="createdAt" featureConcept="//@domainModel/@domainElements.41"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_7ta_kCcwEfCZQcTCtRSxXQ" name="Create Report Page">
+        <annotations text="/report/create"/>
+        <viewElements xsi:type="ext:Form" id="_-XrmYCcwEfCZQcTCtRSxXQ" name="Create Report">
+          <viewComponentParts xsi:type="core:DataBinding" id="_GgcdQCcxEfCZQcTCtRSxXQ" name="Report Data">
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_Mk6hICcxEfCZQcTCtRSxXQ" name="reportTitle">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_OIDH0CcxEfCZQcTCtRSxXQ" name="reportTitle">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </subViewComponentParts>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_YH-UoCcxEfCZQcTCtRSxXQ" name="reportContent">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Zi6ooCcxEfCZQcTCtRSxXQ" name="reportContent">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </subViewComponentParts>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_3a498CcxEfCZQcTCtRSxXQ" name="Special Services">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_8oZkoCcxEfCZQcTCtRSxXQ" name="Special Services Page" isXOR="true">
+        <annotations text="/special"/>
+        <viewElements xsi:type="ext:List" id="_lI5-4CcyEfCZQcTCtRSxXQ" name="ListRow Special Service">
+          <viewComponentParts xsi:type="core:DataBinding" id="_z-eE8CcyEfCZQcTCtRSxXQ" name="Special Service">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_8IeR8CcyEfCZQcTCtRSxXQ" name="specialServiceId" featureConcept="//@domainModel/@domainElements.17"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_b_ML4CczEfCZQcTCtRSxXQ" name="details" featureConcept="//@domainModel/@domainElements.21"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_iV8SkCczEfCZQcTCtRSxXQ" name="available" featureConcept="//@domainModel/@domainElements.20"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_prx3sCczEfCZQcTCtRSxXQ" name="price" featureConcept="//@domainModel/@domainElements.18"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_zecEkCczEfCZQcTCtRSxXQ" name="Create Special Services Page">
+        <annotations text="/special/create"/>
+        <viewElements xsi:type="ext:Form" id="_5YQ-sCczEfCZQcTCtRSxXQ" name="Form">
+          <viewComponentParts xsi:type="core:DataBinding" id="_BB6QoCc0EfCZQcTCtRSxXQ" name="Data Binding">
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_DY7LUCc0EfCZQcTCtRSxXQ" name="details">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_FSNoMCc0EfCZQcTCtRSxXQ" name="details">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </subViewComponentParts>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_OogCICc0EfCZQcTCtRSxXQ" name="price">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_P9UgACc0EfCZQcTCtRSxXQ" name="price">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </subViewComponentParts>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
     </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_e_6L4ScoEfCGZLR-5WQt4w">
