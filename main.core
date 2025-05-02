@@ -18,13 +18,29 @@
       </interactionFlowModelElement>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_cxORUCcpEfCGZLR-5WQt4w" name="Consultation">
+      <annotations text="/consultation"/>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_e4tiQCcpEfCGZLR-5WQt4w" name="Consultaion Page" isXOR="true">
         <viewElements xsi:type="ext:List" id="_kaX0ACcpEfCGZLR-5WQt4w" name="Consultations">
           <viewComponentParts xsi:type="core:DataBinding" id="_mtOncCcpEfCGZLR-5WQt4w" name="List Consultation">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_rV0jMCcpEfCGZLR-5WQt4w" name="subject" featureConcept="//@domainModel/@domainElements.3"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_vRw0UCcpEfCGZLR-5WQt4w" name="description">
+              <featureConcept href="main2.core#//@domainModel/@domainElements.4"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_0CYqsCcpEfCGZLR-5WQt4w" name="status" featureConcept="//@domainModel/@domainElements.5"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_FROVQCcqEfCGZLR-5WQt4w" name="Complaint">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_MZKBQCcqEfCGZLR-5WQt4w" name="Complaint Page" isXOR="true">
+        <viewElements xsi:type="ext:List" id="_X8VwkCcqEfCGZLR-5WQt4w" name="Complaints">
+          <viewComponentParts xsi:type="core:DataBinding" id="_buiP0CcqEfCGZLR-5WQt4w" name="List Complaint">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_hTP1kCcqEfCGZLR-5WQt4w" name="complaintSubject" featureConcept="//@domainModel/@domainElements.32"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_kqooICcqEfCGZLR-5WQt4w" name="complaintMessage" featureConcept="//@domainModel/@domainElements.33"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_rEftMCcqEfCGZLR-5WQt4w" name="Create Complaint Page"/>
     </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_e_6L4ScoEfCGZLR-5WQt4w">
