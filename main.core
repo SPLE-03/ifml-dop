@@ -35,14 +35,43 @@
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_cxORUCcpEfCGZLR-5WQt4w" name="Consultation">
       <annotations text="/consultation"/>
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_e4tiQCcpEfCGZLR-5WQt4w" name="Consultaion Page" isXOR="true">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_e4tiQCcpEfCGZLR-5WQt4w" name="Consultation Page" isXOR="true">
         <viewElements xsi:type="ext:List" id="_kaX0ACcpEfCGZLR-5WQt4w" name="Consultations">
           <viewComponentParts xsi:type="core:DataBinding" id="_mtOncCcpEfCGZLR-5WQt4w" name="List Consultation">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_rV0jMCcpEfCGZLR-5WQt4w" name="subject" featureConcept="//@domainModel/@domainElements.3"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_vRw0UCcpEfCGZLR-5WQt4w" name="description">
-              <featureConcept href="main2.core#//@domainModel/@domainElements.4"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_rV0jMCcpEfCGZLR-5WQt4w" name="consultationSubject" featureConcept="//@domainModel/@domainElements.3"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_vRw0UCcpEfCGZLR-5WQt4w" name="consultationDescription" featureConcept="//@domainModel/@domainElements.4"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_0CYqsCcpEfCGZLR-5WQt4w" name="consultationStatus" featureConcept="//@domainModel/@domainElements.5"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_eYByECdgEfCYt7ZTcPZDvQ" name="Consultation Detail Page" isXOR="true">
+        <annotations text="/consultation/view/:consultationId"/>
+        <viewElements xsi:type="ext:Details" id="_mNMXgCdgEfCYt7ZTcPZDvQ" name="Consultation Detail">
+          <viewComponentParts xsi:type="core:DataBinding" id="_qTjI4CdgEfCYt7ZTcPZDvQ" name="Consultation Detail Data">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_vQx34CdgEfCYt7ZTcPZDvQ" name="consultationId" featureConcept="//@domainModel/@domainElements.2"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_xbv6oCdgEfCYt7ZTcPZDvQ" name="consultationSubject" featureConcept="//@domainModel/@domainElements.3"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_4sZdwCdgEfCYt7ZTcPZDvQ" name="consultationDescription" featureConcept="//@domainModel/@domainElements.4"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_-0p1cCdgEfCYt7ZTcPZDvQ" name="consultationStatus" featureConcept="//@domainModel/@domainElements.5"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_MYfN4CdhEfCYt7ZTcPZDvQ" name="Consultation Form Page">
+        <annotations text="/consultation/create"/>
+        <viewElements xsi:type="ext:Form" id="_SEjY0CdhEfCYt7ZTcPZDvQ" name="Consultation Form">
+          <parameters id="_Wu3L0CdhEfCYt7ZTcPZDvQ" name="id_consultation"/>
+          <viewComponentParts xsi:type="core:DataBinding" id="_dyYR4CdhEfCYt7ZTcPZDvQ" name="Consultation Form Data">
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_iscYICdhEfCYt7ZTcPZDvQ" name="consultationSubject">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_o8xtwCdhEfCYt7ZTcPZDvQ" name="consultationSubject">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </subViewComponentParts>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_0CYqsCcpEfCGZLR-5WQt4w" name="status" featureConcept="//@domainModel/@domainElements.5"/>
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_xjCY8CdhEfCYt7ZTcPZDvQ" name="consultationDescription">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_2V65ICdhEfCYt7ZTcPZDvQ" name="consultationDescription">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </subViewComponentParts>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
