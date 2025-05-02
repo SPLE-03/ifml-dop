@@ -20,7 +20,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
         <target xmi:type="core:IFMLModel" href="main2.core#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_gn3BICcoEfCGZLR-5WQt4w" name="IFMLDiagram" repPath="#_gn2aECcoEfCGZLR-5WQt4w" changeId="1746176680503">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_gn3BICcoEfCGZLR-5WQt4w" name="IFMLDiagram" repPath="#_gn2aECcoEfCGZLR-5WQt4w" changeId="1746185553038">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
         <target xmi:type="core:IFMLModel" href="main.core#/"/>
       </ownedRepresentationDescriptors>
@@ -2021,7 +2021,7 @@
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_gqJgICcoEfCGZLR-5WQt4w" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_gqJgIScoEfCGZLR-5WQt4w"/>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_kprQwCcoEfCGZLR-5WQt4w" name=" «ViewContainer» Home" tooltipText="ViewContainer Home" outgoingEdges="_mcWIQCcoEfCGZLR-5WQt4w" width="30" height="20">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_kprQwCcoEfCGZLR-5WQt4w" name="[XOR] «ViewContainer» Home" tooltipText="ViewContainer Home" outgoingEdges="_mcWIQCcoEfCGZLR-5WQt4w" width="30" height="20">
       <target xmi:type="core:ViewContainer" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
       <semanticElements xmi:type="core:ViewContainer" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_kpr30CcoEfCGZLR-5WQt4w" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
@@ -2345,7 +2345,7 @@
           </ownedDiagramElements>
         </ownedDiagramElements>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_rEgUQCcqEfCGZLR-5WQt4w" name=" «ViewContainer» Create Complaint Page" tooltipText="ViewContainer Create Complaint Page" outgoingEdges="_iIYUhCcvEfCZQcTCtRSxXQ" width="30" height="20">
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_rEgUQCcqEfCGZLR-5WQt4w" name="[XOR] «ViewContainer» Create Complaint Page" tooltipText="ViewContainer Create Complaint Page" outgoingEdges="_iIYUhCcvEfCZQcTCtRSxXQ" width="30" height="20">
         <target xmi:type="core:ViewContainer" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.3/@interactionFlowModelElement.1"/>
         <semanticElements xmi:type="core:ViewContainer" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.3/@interactionFlowModelElement.1"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -2515,7 +2515,7 @@
           </ownedDiagramElements>
         </ownedDiagramElements>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_7tbmoCcwEfCZQcTCtRSxXQ" name=" «ViewContainer» Create Report Page" tooltipText="ViewContainer Create Report Page" outgoingEdges="_t4VpuCcxEfCZQcTCtRSxXQ" width="30" height="20">
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_7tbmoCcwEfCZQcTCtRSxXQ" name="[XOR] «ViewContainer» Create Report Page" tooltipText="ViewContainer Create Report Page" outgoingEdges="_t4VpuCcxEfCZQcTCtRSxXQ" width="30" height="20">
         <target xmi:type="core:ViewContainer" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.4/@interactionFlowModelElement.1"/>
         <semanticElements xmi:type="core:ViewContainer" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.4/@interactionFlowModelElement.1"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -2696,7 +2696,7 @@
           </ownedDiagramElements>
         </ownedDiagramElements>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_zecroCczEfCZQcTCtRSxXQ" name=" «ViewContainer» Create Special Services Page" tooltipText="ViewContainer Create Special Services Page" outgoingEdges="_cw45NCc0EfCZQcTCtRSxXQ" width="30" height="20">
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_zecroCczEfCZQcTCtRSxXQ" name="[XOR] «ViewContainer» Create Special Services Page" tooltipText="ViewContainer Create Special Services Page" outgoingEdges="_cw45NCc0EfCZQcTCtRSxXQ" width="30" height="20">
         <target xmi:type="core:ViewContainer" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.5/@interactionFlowModelElement.1"/>
         <semanticElements xmi:type="core:ViewContainer" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.5/@interactionFlowModelElement.1"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>

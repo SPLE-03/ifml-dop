@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_e_6L4CcoEfCGZLR-5WQt4w">
   <interactionFlowModel id="_kpPL4CcoEfCGZLR-5WQt4w">
-    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_kpUEYCcoEfCGZLR-5WQt4w" name="Home">
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_kpUEYCcoEfCGZLR-5WQt4w" name="Home" isXOR="true">
       <annotations text="/"/>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_r2A7oCcoEfCGZLR-5WQt4w" name="Information">
@@ -41,7 +41,7 @@
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_rEftMCcqEfCGZLR-5WQt4w" name="Create Complaint Page">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_rEftMCcqEfCGZLR-5WQt4w" name="Create Complaint Page" isXOR="true">
         <annotations text="/complaint/create"/>
         <viewElements xsi:type="ext:Form" id="_tK-xMCctEfCZQcTCtRSxXQ" name="Create Complaint">
           <viewComponentParts xsi:type="core:DataBinding" id="_2MlUkCctEfCZQcTCtRSxXQ" name="Complaint Data">
@@ -72,7 +72,7 @@
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_7ta_kCcwEfCZQcTCtRSxXQ" name="Create Report Page">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_7ta_kCcwEfCZQcTCtRSxXQ" name="Create Report Page" isXOR="true">
         <annotations text="/report/create"/>
         <viewElements xsi:type="ext:Form" id="_-XrmYCcwEfCZQcTCtRSxXQ" name="Create Report">
           <viewComponentParts xsi:type="core:DataBinding" id="_GgcdQCcxEfCZQcTCtRSxXQ" name="Report Data">
@@ -104,7 +104,7 @@
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_zecEkCczEfCZQcTCtRSxXQ" name="Create Special Services Page">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_zecEkCczEfCZQcTCtRSxXQ" name="Create Special Services Page" isXOR="true">
         <annotations text="/special/create"/>
         <viewElements xsi:type="ext:Form" id="_5YQ-sCczEfCZQcTCtRSxXQ" name="Form">
           <viewComponentParts xsi:type="core:DataBinding" id="_BB6QoCc0EfCZQcTCtRSxXQ" name="Data Binding">
