@@ -10,8 +10,24 @@
         <viewElements xsi:type="ext:List" id="_6rC2MCcoEfCGZLR-5WQt4w" name="List Information">
           <viewComponentParts xsi:type="core:DataBinding" id="__MeaACcoEfCGZLR-5WQt4w" name="Informations">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_BjcRYCcpEfCGZLR-5WQt4w" name="title" featureConcept="//@domainModel/@domainElements.9"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_OtxksCcpEfCGZLR-5WQt4w" name="description">
-              <featureConcept href="main2.core#//@domainModel/@domainElements.10"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_OtxksCcpEfCGZLR-5WQt4w" name="description" featureConcept="//@domainModel/@domainElements.10"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_mLorkCdQEfCYoeKmrH55wg" name="Create Information Page" isXOR="true">
+        <annotations text="/information/create"/>
+        <viewElements xsi:type="ext:Form" id="_tFrskCdQEfCYoeKmrH55wg" name="Form">
+          <viewComponentParts xsi:type="core:DataBinding" id="_wmN0ECdQEfCYoeKmrH55wg" name="Data Binding">
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_7W8ywCdQEfCYoeKmrH55wg" name="title">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_ZaYxMCdREfCYoeKmrH55wg" name="title">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EString"/>
+              </subViewComponentParts>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EString"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_8h6xECdQEfCYoeKmrH55wg" name="Simple Field">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_ltxOYCdREfCYoeKmrH55wg" name="description">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EString"/>
+              </subViewComponentParts>
             </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
