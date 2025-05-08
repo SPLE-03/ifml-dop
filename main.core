@@ -1,37 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_e_6L4CcoEfCGZLR-5WQt4w">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_e_6L4CcoEfCGZLR-5WQt4w">
   <interactionFlowModel id="_kpPL4CcoEfCGZLR-5WQt4w">
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_kpUEYCcoEfCGZLR-5WQt4w" name="Home" isXOR="true">
       <annotations text="/"/>
-    </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_r2A7oCcoEfCGZLR-5WQt4w" name="Information">
-      <annotations text="/information"/>
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_vCdCcCcoEfCGZLR-5WQt4w" name="Information Page" isXOR="true">
-        <viewElements xsi:type="ext:List" id="_6rC2MCcoEfCGZLR-5WQt4w" name="List Information">
-          <viewComponentParts xsi:type="core:DataBinding" id="__MeaACcoEfCGZLR-5WQt4w" name="Informations">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_BjcRYCcpEfCGZLR-5WQt4w" name="title" featureConcept="//@domainModel/@domainElements.9"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_OtxksCcpEfCGZLR-5WQt4w" name="description" featureConcept="//@domainModel/@domainElements.10"/>
-          </viewComponentParts>
-        </viewElements>
-      </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_mLorkCdQEfCYoeKmrH55wg" name="Create Information Page" isXOR="true">
-        <annotations text="/information/create"/>
-        <viewElements xsi:type="ext:Form" id="_tFrskCdQEfCYoeKmrH55wg" name="Form">
-          <viewComponentParts xsi:type="core:DataBinding" id="_wmN0ECdQEfCYoeKmrH55wg" name="Data Binding">
-            <subViewComponentParts xsi:type="ext:SimpleField" id="_7W8ywCdQEfCYoeKmrH55wg" name="title">
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_ZaYxMCdREfCYoeKmrH55wg" name="title">
-                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EString"/>
-              </subViewComponentParts>
-              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EString"/>
-            </subViewComponentParts>
-            <subViewComponentParts xsi:type="ext:SimpleField" id="_8h6xECdQEfCYoeKmrH55wg" name="Simple Field">
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_ltxOYCdREfCYoeKmrH55wg" name="description">
-                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EString"/>
-              </subViewComponentParts>
-            </subViewComponentParts>
-          </viewComponentParts>
-        </viewElements>
-      </interactionFlowModelElement>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_cxORUCcpEfCGZLR-5WQt4w" name="Consultation">
       <annotations text="/consultation"/>
@@ -168,6 +139,48 @@
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_0UJRoCwiEfCkK8d-i3isFQ" name="Information" isXOR="true">
+      <viewElements xsi:type="core:ViewContainer" id="_Bh7hkCwjEfCkK8d-i3isFQ" name="Information Page">
+        <viewElements xsi:type="ext:List" id="_EwXMcCwjEfCkK8d-i3isFQ" name="List Information">
+          <viewComponentParts xsi:type="core:DataBinding" id="_InGNcCwjEfCkK8d-i3isFQ" name="Information" uniformResourceIdentifier="call/information">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_SI3eoCwjEfCkK8d-i3isFQ" name="Visualization Attribute"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_S3Sq4CwjEfCkK8d-i3isFQ" name="Visualization Attribute"/>
+          </viewComponentParts>
+        </viewElements>
+      </viewElements>
+      <viewElements xsi:type="core:ViewContainer" id="_UBa7sCwjEfCkK8d-i3isFQ" name="Create Information Page">
+        <viewElements xsi:type="ext:Form" id="_Z3RUwCwjEfCkK8d-i3isFQ" name="Form">
+          <viewComponentParts xsi:type="ext:SimpleField" id="_zpp4QCwkEfCkK8d-i3isFQ" name="Simple Field">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_2IHewCwkEfCkK8d-i3isFQ" name="Slot"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_0jEzkCwkEfCkK8d-i3isFQ" name="Simple Field">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_28TUwCwkEfCkK8d-i3isFQ" name="Slot"/>
+          </viewComponentParts>
+        </viewElements>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="dop-extension:Delta" id="_sr-w8CwjEfCkK8d-i3isFQ" name="Article" isXOR="true">
+      <viewElements xsi:type="dop-extension:Delta" id="_7kQMwCwjEfCkK8d-i3isFQ" name="Article Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.6/@actions.0/@outInteractionFlows.0">
+        <viewElements xsi:type="dop-extension:ModifiedList" id="_RAu8cCwkEfCkK8d-i3isFQ" name="Modified List">
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_TpCbcCwkEfCkK8d-i3isFQ" name="Modified Data Binding" uniformResourceIdentifier="call/information">
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_Y8QBgCwkEfCkK8d-i3isFQ" name="Added Visualization Attribute"/>
+          </viewComponentParts>
+        </viewElements>
+      </viewElements>
+      <viewElements xsi:type="dop-extension:Delta" id="_-GKI0CwjEfCkK8d-i3isFQ" name="Create Article Page">
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_mJEBECwkEfCkK8d-i3isFQ" name="Modified Form">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_D6r2wCwlEfCkK8d-i3isFQ" name="OnSubmit Event">
+            <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_Gcvj0CwlEfCkK8d-i3isFQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.6/@actions.0"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_4_q6sCwkEfCkK8d-i3isFQ" name="Added Simple Field">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_6rSH8CwkEfCkK8d-i3isFQ" name="AddedSlot"/>
+          </viewComponentParts>
+        </viewElements>
+      </viewElements>
+      <actions xsi:type="dop-extension:AddedAction" id="__e_ukCwkEfCkK8d-i3isFQ" name="AddedAction" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_H85H8CwlEfCkK8d-i3isFQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.0"/>
+      </actions>
     </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_e_6L4ScoEfCGZLR-5WQt4w">
