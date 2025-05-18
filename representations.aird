@@ -18,7 +18,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
         <target xmi:type="core:IFMLModel" href="main2.core#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_gn3BICcoEfCGZLR-5WQt4w" name="IFMLDiagram" repPath="#_gn2aECcoEfCGZLR-5WQt4w" changeId="1747583152526">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_gn3BICcoEfCGZLR-5WQt4w" name="IFMLDiagram" repPath="#_gn2aECcoEfCGZLR-5WQt4w" changeId="1747584099450">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
         <target xmi:type="core:IFMLModel" href="main.core#/"/>
       </ownedRepresentationDescriptors>
@@ -4007,7 +4007,7 @@
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_ihEFkDP5EfCUndBDvuKd3A" name=" «IFMLMenu» DoctorInformation" tooltipText="IFMLMenu DoctorInformation" outgoingEdges="_kPeIZDP5EfCUndBDvuKd3A" width="30" height="20">
       <target xmi:type="ext:IFMLMenu" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.9"/>
       <semanticElements xmi:type="ext:IFMLMenu" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.9"/>
-      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_piA_0DP5EfCUndBDvuKd3A" name="ViewElement Event" outgoingEdges="_t_R1ZDP5EfCUndBDvuKd3A" width="-1" height="-1" resizeKind="NSEW">
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_piA_0DP5EfCUndBDvuKd3A" name="DoctorInformation" outgoingEdges="_t_R1ZDP5EfCUndBDvuKd3A" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="core:ViewElementEvent" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.9/@viewElementEvents.0"/>
         <semanticElements xmi:type="core:ViewElementEvent" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.9/@viewElementEvents.0"/>
         <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_piI7oDP5EfCUndBDvuKd3A" showIcon="false" workspacePath="/IFMLEditorDesign/img/components/ViewElementEvent.png">
@@ -4450,7 +4450,7 @@
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_CuAU4DP_EfCUndBDvuKd3A" name=" «IFMLMenu» DrugInformation" tooltipText="IFMLMenu DrugInformation" outgoingEdges="_JXZDzDP_EfCUndBDvuKd3A" width="30" height="20">
       <target xmi:type="ext:IFMLMenu" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.13"/>
       <semanticElements xmi:type="ext:IFMLMenu" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.13"/>
-      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_GnXzIDP_EfCUndBDvuKd3A" name="ViewElement Event" outgoingEdges="_ILa__DP_EfCUndBDvuKd3A" width="-1" height="-1" resizeKind="NSEW">
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_GnXzIDP_EfCUndBDvuKd3A" name="DrugInformation" outgoingEdges="_ILa__DP_EfCUndBDvuKd3A" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="core:ViewElementEvent" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.13/@viewElementEvents.0"/>
         <semanticElements xmi:type="core:ViewElementEvent" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.13/@viewElementEvents.0"/>
         <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_GnfH4DP_EfCUndBDvuKd3A" showIcon="false" workspacePath="/IFMLEditorDesign/img/components/ViewElementEvent.png">

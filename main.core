@@ -232,7 +232,7 @@
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_igihIDP5EfCUndBDvuKd3A" name="DoctorInformation">
       <annotations text="DoctorInformation"/>
-      <viewElementEvents id="_phuE4DP5EfCUndBDvuKd3A" name="ViewElement Event">
+      <viewElementEvents id="_phuE4DP5EfCUndBDvuKd3A" name="DoctorInformation">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_t-S94DP5EfCUndBDvuKd3A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.8/@viewElements.0"/>
       </viewElementEvents>
     </interactionFlowModelElements>
@@ -314,7 +314,7 @@
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_CtbtIDP_EfCUndBDvuKd3A" name="DrugInformation">
       <annotations text="DrugInformation"/>
-      <viewElementEvents id="_GnGGUDP_EfCUndBDvuKd3A" name="ViewElement Event">
+      <viewElementEvents id="_GnGGUDP_EfCUndBDvuKd3A" name="DrugInformation">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_IKVasDP_EfCUndBDvuKd3A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.12/@viewElements.0"/>
       </viewElementEvents>
     </interactionFlowModelElements>
