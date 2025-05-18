@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_r6lsoDPsEfCo74dYEhpngQ">
+  <domainModel id="_r6lsoTPsEfCo74dYEhpngQ">
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7Fb4DPsEfCo74dYEhpngQ" name="update">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_qu9AoCG8EfCOWu84Fzec_A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7GqADPsEfCo74dYEhpngQ" name="ConsultationImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_MrLOgCG9EfCOWu84Fzec_A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqATPsEfCo74dYEhpngQ" name="consultationId">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_R1cT8CG9EfCOWu84Fzec_A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqAjPsEfCo74dYEhpngQ" name="consultationSubject">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_VXv9ECG9EfCOWu84Fzec_A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqAzPsEfCo74dYEhpngQ" name="consultationDescription">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_ZIJskCG9EfCOWu84Fzec_A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqBDPsEfCo74dYEhpngQ" name="consultationStatus">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_ta2JsCG9EfCOWu84Fzec_A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqBTPsEfCo74dYEhpngQ" name="consultationUpdate">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_cQL_ECG-EfCOWu84Fzec_A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7GqBjPsEfCo74dYEhpngQ" name="InformationImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_Dkr4MCHKEfCStq4uDT80nw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqBzPsEfCo74dYEhpngQ" name="informationId">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_FBTAICHKEfCStq4uDT80nw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqCDPsEfCo74dYEhpngQ" name="informationTitle">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_KPotQCHKEfCStq4uDT80nw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqCTPsEfCo74dYEhpngQ" name="informationDescription">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_jdQp8CHjEfCStq4uDT80nw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqCjPsEfCo74dYEhpngQ" name="callService">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_K80X0CHUEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqCzPsEfCo74dYEhpngQ" name="isAvailable">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_w64qgCHUEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqDDPsEfCo74dYEhpngQ" name="cancelService">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_BUhycCHVEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqDTPsEfCo74dYEhpngQ" name="getDetails">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_tjqakCHVEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqDjPsEfCo74dYEhpngQ" name="calculatePrice">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_wT4fcCHVEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7GqDzPsEfCo74dYEhpngQ" name="SpecialServicesImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_KjiAACHSEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqEDPsEfCo74dYEhpngQ" name="specialServicesId">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_nmuM8CHTEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqETPsEfCo74dYEhpngQ" name="price">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_LiS8ECHXEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqEjPsEfCo74dYEhpngQ" name="distance">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_OyFR0CHXEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqEzPsEfCo74dYEhpngQ" name="available">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_Sly0ACHXEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqFDPsEfCo74dYEhpngQ" name="details">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_Wh42ICHXEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqFTPsEfCo74dYEhpngQ" name="specialServicesUser">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_eX-yMCbFEfCLasUrN53bvA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqFjPsEfCo74dYEhpngQ" name="calculatePrice">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_3aUhMCHWEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqFzPsEfCo74dYEhpngQ" name="isAvailable">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_3aVvUCHWEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqGDPsEfCo74dYEhpngQ" name="callService">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_3aYLkCHWEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqGTPsEfCo74dYEhpngQ" name="getDetails">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_3aZZsCHWEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqGjPsEfCo74dYEhpngQ" name="cancelService">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_3aaAwCHWEfCP0dNYSf3N4w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqGzPsEfCo74dYEhpngQ" name="submitComplaint">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_mN9JkCHbEfCacqaEq2YJJg"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7GqHDPsEfCo74dYEhpngQ" name="ComplaintServiceImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_16yO0CHbEfCacqaEq2YJJg"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqHTPsEfCo74dYEhpngQ" name="complaintServiceId">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_5XDhYCHbEfCacqaEq2YJJg"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqHjPsEfCo74dYEhpngQ" name="complaintServiceUser">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_-Zs74CHbEfCacqaEq2YJJg"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqHzPsEfCo74dYEhpngQ" name="complaintSubject">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_NM1ZACHcEfCacqaEq2YJJg"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqIDPsEfCo74dYEhpngQ" name="complaintMessage">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_PuVFYCHcEfCacqaEq2YJJg"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqITPsEfCo74dYEhpngQ" name="submitComplaint">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_uwpG4CHcEfCacqaEq2YJJg"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqIjPsEfCo74dYEhpngQ" name="generate">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_AAEVYCHfEfCXy5btsD0Hyw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7GqIzPsEfCo74dYEhpngQ" name="ReportImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_GBmIECHhEfCXy5btsD0Hyw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqJDPsEfCo74dYEhpngQ" name="reportId">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_cc9XICadEfClUKKRAzdS9Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqJTPsEfCo74dYEhpngQ" name="reportUser">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_dU654CadEfClUKKRAzdS9Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqJjPsEfCo74dYEhpngQ" name="reportTitle">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_h-OnUCadEfClUKKRAzdS9Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqJzPsEfCo74dYEhpngQ" name="reportContent">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_zQDUcCadEfClUKKRAzdS9Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqKDPsEfCo74dYEhpngQ" name="createdAt">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_EsogECaeEfClUKKRAzdS9Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7GqKTPsEfCo74dYEhpngQ" name="generate">
+      <behavioralFeature xsi:type="uml:Operation" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_gBcVQCHhEfCXy5btsD0Hyw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7GqKjPsEfCo74dYEhpngQ" name="UserImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_ottqwCckEfCLasUrN53bvA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7GqKzPsEfCo74dYEhpngQ" name="ConsultationImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_cSQTkCyeEfC_RLzhPfoznA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqLDPsEfCo74dYEhpngQ" name="ListChatMessages">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_BojboCyfEfC_RLzhPfoznA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqLTPsEfCo74dYEhpngQ" name="consultationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_dOp_giygEfC_RLzhPfoznA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7GqLjPsEfCo74dYEhpngQ" name="ChatMessage">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_rtVhgCyeEfC_RLzhPfoznA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqLzPsEfCo74dYEhpngQ" name="sender">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_wG14YCyeEfC_RLzhPfoznA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqMDPsEfCo74dYEhpngQ" name="content">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_1qrUYCyeEfC_RLzhPfoznA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7GqMTPsEfCo74dYEhpngQ" name="InformationImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_oB9xECygEfC_RLzhPfoznA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqMjPsEfCo74dYEhpngQ" name="content">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_s7x_sCygEfC_RLzhPfoznA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqMzPsEfCo74dYEhpngQ" name="informationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_y3AA8SygEfC_RLzhPfoznA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7GqNDPsEfCo74dYEhpngQ" name="ReportImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_W1IC4DGIEfCTtJ6Hq2TUiw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqNTPsEfCo74dYEhpngQ" name="diagnosis">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_geDE8DGIEfCTtJ6Hq2TUiw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqNjPsEfCo74dYEhpngQ" name="reportimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_oSu3UjGKEfCTtJ6Hq2TUiw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7GqNzPsEfCo74dYEhpngQ" name="ReportImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_iBSj4DGJEfCTtJ6Hq2TUiw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7GqODPsEfCo74dYEhpngQ" name="patientTreated">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_n6hBEDGJEfCTtJ6Hq2TUiw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HREDPsEfCo74dYEhpngQ" name="reportimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_UyntsDGKEfCTtJ6Hq2TUiw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7HRETPsEfCo74dYEhpngQ" name="InformationImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_hQB6cDJXEfC3_qGxY9riQw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HREjPsEfCo74dYEhpngQ" name="location">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_oq_3MDJXEfC3_qGxY9riQw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HREzPsEfCo74dYEhpngQ" name="informationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_Z1fmEjJYEfC3_qGxY9riQw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7HRFDPsEfCo74dYEhpngQ" name="InformationImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_ff7-EDPREfCUndBDvuKd3A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRFTPsEfCo74dYEhpngQ" name="specialist">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_cgCpADPSEfCUndBDvuKd3A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRFjPsEfCo74dYEhpngQ" name="informationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_stDqMzPSEfCUndBDvuKd3A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7HRFzPsEfCo74dYEhpngQ" name="InformationImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_sRghMDPTEfCUndBDvuKd3A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRGDPsEfCo74dYEhpngQ" name="dosage">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_yv9LUDPTEfCUndBDvuKd3A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRGTPsEfCo74dYEhpngQ" name="informationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_aMfnIjPUEfCUndBDvuKd3A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7HRGjPsEfCo74dYEhpngQ" name="InformationImpl">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_n-NqkDPUEfCUndBDvuKd3A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRGzPsEfCo74dYEhpngQ" name="vaccinationLocation">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_t0SGEDPUEfCUndBDvuKd3A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRHDPsEfCo74dYEhpngQ" name="type">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_0-wIsDPUEfCUndBDvuKd3A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRHTPsEfCo74dYEhpngQ" name="schedule">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_9jbfgDPUEfCUndBDvuKd3A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRHjPsEfCo74dYEhpngQ" name="informationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_fRtYAjPVEfCUndBDvuKd3A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_r7HRHzPsEfCo74dYEhpngQ" name="UUID">
+      <classifier xsi:type="uml:Class" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_Q89h4CG_EfCOWu84Fzec_A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRIDPsEfCo74dYEhpngQ" name="chatmessage">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_uASmIyyfEfC_RLzhPfoznA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRITPsEfCo74dYEhpngQ" name="consultationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_uATNMCyfEfC_RLzhPfoznA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRIjPsEfCo74dYEhpngQ" name="consultationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_dOqmkiygEfC_RLzhPfoznA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRIzPsEfCo74dYEhpngQ" name="informationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_y3AA9CygEfC_RLzhPfoznA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRJDPsEfCo74dYEhpngQ" name="reportimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_UyoUwjGKEfCTtJ6Hq2TUiw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRJTPsEfCo74dYEhpngQ" name="reportimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_oSu3VTGKEfCTtJ6Hq2TUiw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRJjPsEfCo74dYEhpngQ" name="informationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_Z1g0MDJYEfC3_qGxY9riQw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRJzPsEfCo74dYEhpngQ" name="informationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_stERQjPSEfCUndBDvuKd3A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRKDPsEfCo74dYEhpngQ" name="informationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_aMgOMTPUEfCUndBDvuKd3A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_r7HRKTPsEfCo74dYEhpngQ" name="informationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../healthcare-uml-dop/healthcare-uml-dop.uml#_fRtYBTPVEfCUndBDvuKd3A"/>
+    </domainElements>
+  </domainModel>
+</core:IFMLModel>

@@ -11,6 +11,7 @@
     <semanticResources>pathmap://model/uml-vm-profile/uml-vm-profile.profile.uml</semanticResources>
     <semanticResources>main.core</semanticResources>
     <semanticResources>main2.core</semanticResources>
+    <semanticResources>main3.core</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_Cqy_0CHrEfCTcoHaZ_sqSg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_NAGz4CcnEfCGZLR-5WQt4w" name="new IFMLDiagram" repPath="#_M_skMCcnEfCGZLR-5WQt4w" changeId="1746171429644">
