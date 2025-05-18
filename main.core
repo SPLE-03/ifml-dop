@@ -200,6 +200,124 @@
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_gGeJsDO9EfCbsOr7QTJMFg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.0"/>
       </viewElementEvents>
     </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="dop-extension:Delta" id="_qZKrQDPuEfCUndBDvuKd3A" name="DoctorInformation" isXOR="true" uses="//@interactionFlowModel/@interactionFlowModelElements.5">
+      <viewElements xsi:type="dop-extension:Delta" id="_IOulwDPvEfCUndBDvuKd3A" name="DoctorInformation Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.8/@actions.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.9/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0">
+        <annotations text="/doctorinformation"/>
+        <viewElements xsi:type="dop-extension:ModifiedList" id="_QbaTUDPvEfCUndBDvuKd3A" name="List DoctorInformation" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0">
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_XkufYDPvEfCUndBDvuKd3A" name="DoctorInformation" uniformResourceIdentifier="call/doctorinformation/list" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0/@viewComponentParts.0">
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_dBqCIDPvEfCUndBDvuKd3A" name="specialist">
+              <featureConcept href="main3.core#//@domainModel/@domainElements.63"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+        </viewElements>
+      </viewElements>
+      <viewElements xsi:type="dop-extension:Delta" id="_0I8t0DPvEfCUndBDvuKd3A" name="Create DoctorInformation Page" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1">
+        <annotations text="/doctorinformation/create"/>
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_3VydQDPvEfCUndBDvuKd3A" name="Modified Form" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1/@viewElements.0">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_IaRi4DP5EfCUndBDvuKd3A" name="Create DoctorInformation">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_Vdb3MDP5EfCUndBDvuKd3A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.8/@actions.0"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_7SqigDPvEfCUndBDvuKd3A" name="specialist">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_Z3yRsDPwEfCUndBDvuKd3A" name="specialist">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+        </viewElements>
+      </viewElements>
+      <actions xsi:type="dop-extension:AddedAction" id="_R1FUoDPyEfCUndBDvuKd3A" name="Save DoctorInformation" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.8/@viewElements.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_Ylo-QDP5EfCUndBDvuKd3A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.8/@viewElements.0"/>
+      </actions>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_igihIDP5EfCUndBDvuKd3A" name="DoctorInformation">
+      <annotations text="DoctorInformation"/>
+      <viewElementEvents id="_phuE4DP5EfCUndBDvuKd3A" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_t-S94DP5EfCUndBDvuKd3A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.8/@viewElements.0"/>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="dop-extension:Delta" id="_3TFjADP5EfCUndBDvuKd3A" name="VaccineInfo" isXOR="true" uses="//@interactionFlowModel/@interactionFlowModelElements.5">
+      <viewElements xsi:type="dop-extension:Delta" id="_JDkiEDP6EfCUndBDvuKd3A" name="VaccineInfo Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.10/@actions.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.11/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0">
+        <annotations text="/vaccineinfo"/>
+        <viewElements xsi:type="dop-extension:ModifiedList" id="_NddTcDP6EfCUndBDvuKd3A" name="List VaccineInfo" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0">
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_TykbYDP6EfCUndBDvuKd3A" name="VaccineInfo" uniformResourceIdentifier="call/vaccineinfo/list" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0/@viewComponentParts.0">
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_XgRcMDP6EfCUndBDvuKd3A" name="vaccinationLocation" featureConcept="//@domainModel/@domainElements.69"/>
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_neWCcDP6EfCUndBDvuKd3A" name="type" featureConcept="//@domainModel/@domainElements.70"/>
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_tUpugDP6EfCUndBDvuKd3A" name="schedule" featureConcept="//@domainModel/@domainElements.71"/>
+          </viewComponentParts>
+        </viewElements>
+      </viewElements>
+      <viewElements xsi:type="dop-extension:Delta" id="_9CW9gDP6EfCUndBDvuKd3A" name="Create VaccineInfo Page" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1">
+        <annotations text="/vaccineinfo/create"/>
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_LFfhEDP7EfCUndBDvuKd3A" name="Modified Form" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1/@viewElements.0">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_9vzc4DP7EfCUndBDvuKd3A" name="Create VaccineInfo">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_Olu4MDP8EfCUndBDvuKd3A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.10/@actions.0"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_Qz7DgDP7EfCUndBDvuKd3A" name="vaccinationLocation">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_ZxnXQDP7EfCUndBDvuKd3A" name="vaccinationLocation">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_ieYTEDP7EfCUndBDvuKd3A" name="type">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_l3MB8DP7EfCUndBDvuKd3A" name="type">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_q9o-YDP7EfCUndBDvuKd3A" name="schedule">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_vNvhoDP7EfCUndBDvuKd3A" name="schedule">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+        </viewElements>
+      </viewElements>
+      <actions xsi:type="dop-extension:AddedAction" id="_IdZoADP8EfCUndBDvuKd3A" name="Save VaccineInfo" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_P8qO4DP8EfCUndBDvuKd3A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.0"/>
+      </actions>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_zQwOoDP8EfCUndBDvuKd3A" name="VaccineInfo">
+      <annotations text="VaccineInfo"/>
+      <viewElementEvents id="_AaXwQDP9EfCUndBDvuKd3A" name="VaccineInfo">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_EInjoDP9EfCUndBDvuKd3A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.0"/>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="dop-extension:Delta" id="_HH8bgDP9EfCUndBDvuKd3A" name="DrugInformation" isXOR="true" uses="//@interactionFlowModel/@interactionFlowModelElements.5">
+      <viewElements xsi:type="dop-extension:Delta" id="_PBB3oDP9EfCUndBDvuKd3A" name="DrugInformation Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.12/@actions.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.13/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0">
+        <annotations text="/druginformation"/>
+        <viewElements xsi:type="dop-extension:ModifiedList" id="_TjFtkDP9EfCUndBDvuKd3A" name="List DrugInformation" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0">
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_V9bCADP9EfCUndBDvuKd3A" name="DrugInformation" uniformResourceIdentifier="call/druginformation/list" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0/@viewComponentParts.0">
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_YTp5kDP9EfCUndBDvuKd3A" name="dosage" featureConcept="//@domainModel/@domainElements.66"/>
+          </viewComponentParts>
+        </viewElements>
+      </viewElements>
+      <viewElements xsi:type="dop-extension:Delta" id="_z-CV8DP9EfCUndBDvuKd3A" name="Create DrugInformation Page" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1">
+        <annotations text="/druginformation/create"/>
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_84OCsDP9EfCUndBDvuKd3A" name="Modified Form" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1/@viewElements.0">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_QQ2EQDP-EfCUndBDvuKd3A" name="Create DrugInformation">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_oBa9gDP-EfCUndBDvuKd3A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.12/@actions.0"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_Azas8DP-EfCUndBDvuKd3A" name="dosage">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_HsbzMDP-EfCUndBDvuKd3A" name="dosage">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+        </viewElements>
+      </viewElements>
+      <actions xsi:type="dop-extension:AddedAction" id="_j6kc4DP-EfCUndBDvuKd3A" name="Save DrugInformation" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.12/@viewElements.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_pgyegDP-EfCUndBDvuKd3A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.12/@viewElements.0"/>
+      </actions>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_CtbtIDP_EfCUndBDvuKd3A" name="DrugInformation">
+      <annotations text="DrugInformation"/>
+      <viewElementEvents id="_GnGGUDP_EfCUndBDvuKd3A" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_IKVasDP_EfCUndBDvuKd3A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.12/@viewElements.0"/>
+      </viewElementEvents>
+    </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_r6lsoTPsEfCo74dYEhpngQ">
     <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7Fb4DPsEfCo74dYEhpngQ" name="update">
