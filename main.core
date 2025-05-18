@@ -143,44 +143,62 @@
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_0UJRoCwiEfCkK8d-i3isFQ" name="Information" isXOR="true">
       <viewElements xsi:type="core:ViewContainer" id="_Bh7hkCwjEfCkK8d-i3isFQ" name="Information Page">
         <viewElements xsi:type="ext:List" id="_EwXMcCwjEfCkK8d-i3isFQ" name="List Information">
-          <viewComponentParts xsi:type="core:DataBinding" id="_InGNcCwjEfCkK8d-i3isFQ" name="Information" uniformResourceIdentifier="call/information">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_SI3eoCwjEfCkK8d-i3isFQ" name="Visualization Attribute"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_S3Sq4CwjEfCkK8d-i3isFQ" name="Visualization Attribute"/>
+          <viewComponentParts xsi:type="core:DataBinding" id="_InGNcCwjEfCkK8d-i3isFQ" name="Information" uniformResourceIdentifier="call/information/list">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_SI3eoCwjEfCkK8d-i3isFQ" name="informationTitle" featureConcept="//@domainModel/@domainElements.9"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_S3Sq4CwjEfCkK8d-i3isFQ" name="informationDescription" featureConcept="//@domainModel/@domainElements.4"/>
           </viewComponentParts>
         </viewElements>
       </viewElements>
       <viewElements xsi:type="core:ViewContainer" id="_UBa7sCwjEfCkK8d-i3isFQ" name="Create Information Page">
-        <viewElements xsi:type="ext:Form" id="_Z3RUwCwjEfCkK8d-i3isFQ" name="Form">
-          <viewComponentParts xsi:type="ext:SimpleField" id="_zpp4QCwkEfCkK8d-i3isFQ" name="Simple Field">
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_2IHewCwkEfCkK8d-i3isFQ" name="Slot"/>
+        <viewElements xsi:type="ext:Form" id="_Z3RUwCwjEfCkK8d-i3isFQ" name="Information Form">
+          <viewComponentParts xsi:type="ext:SimpleField" id="_zpp4QCwkEfCkK8d-i3isFQ" name="informationTitle">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_2IHewCwkEfCkK8d-i3isFQ" name="informationTitle">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </viewComponentParts>
-          <viewComponentParts xsi:type="ext:SimpleField" id="_0jEzkCwkEfCkK8d-i3isFQ" name="Simple Field">
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_28TUwCwkEfCkK8d-i3isFQ" name="Slot"/>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_0jEzkCwkEfCkK8d-i3isFQ" name="informationDescription">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_28TUwCwkEfCkK8d-i3isFQ" name="Slot">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </viewComponentParts>
         </viewElements>
       </viewElements>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="dop-extension:Delta" id="_sr-w8CwjEfCkK8d-i3isFQ" name="Article" isXOR="true">
-      <viewElements xsi:type="dop-extension:Delta" id="_7kQMwCwjEfCkK8d-i3isFQ" name="Article Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.6/@actions.0/@outInteractionFlows.0">
-        <viewElements xsi:type="dop-extension:ModifiedList" id="_RAu8cCwkEfCkK8d-i3isFQ" name="Modified List">
-          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_TpCbcCwkEfCkK8d-i3isFQ" name="Modified Data Binding" uniformResourceIdentifier="call/information">
-            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_Y8QBgCwkEfCkK8d-i3isFQ" name="Added Visualization Attribute"/>
+    <interactionFlowModelElements xsi:type="dop-extension:Delta" id="_sr-w8CwjEfCkK8d-i3isFQ" name="Article" isXOR="true" uses="//@interactionFlowModel/@interactionFlowModelElements.5">
+      <viewElements xsi:type="dop-extension:Delta" id="_7kQMwCwjEfCkK8d-i3isFQ" name="Article Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.6/@actions.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.7/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0">
+        <annotations text="/article"/>
+        <viewElements xsi:type="dop-extension:ModifiedList" id="_RAu8cCwkEfCkK8d-i3isFQ" name="List Article" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0">
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_TpCbcCwkEfCkK8d-i3isFQ" name="Article" uniformResourceIdentifier="call/article/list" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0/@viewComponentParts.0">
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_Y8QBgCwkEfCkK8d-i3isFQ" name="content" featureConcept="//@domainModel/@domainElements.49"/>
           </viewComponentParts>
         </viewElements>
       </viewElements>
-      <viewElements xsi:type="dop-extension:Delta" id="_-GKI0CwjEfCkK8d-i3isFQ" name="Create Article Page">
-        <viewElements xsi:type="dop-extension:ModifiedForm" id="_mJEBECwkEfCkK8d-i3isFQ" name="Modified Form">
-          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_D6r2wCwlEfCkK8d-i3isFQ" name="OnSubmit Event">
+      <viewElements xsi:type="dop-extension:Delta" id="_-GKI0CwjEfCkK8d-i3isFQ" name="Create Article Page" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1">
+        <annotations text="/article/create"/>
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_mJEBECwkEfCkK8d-i3isFQ" name="Modified Form" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1/@viewElements.0">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_D6r2wCwlEfCkK8d-i3isFQ" name="Create Article">
             <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_Gcvj0CwlEfCkK8d-i3isFQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.6/@actions.0"/>
           </viewElementEvents>
-          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_4_q6sCwkEfCkK8d-i3isFQ" name="Added Simple Field">
-            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_6rSH8CwkEfCkK8d-i3isFQ" name="AddedSlot"/>
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_4_q6sCwkEfCkK8d-i3isFQ" name="content">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_6rSH8CwkEfCkK8d-i3isFQ" name="content">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </viewComponentParts>
         </viewElements>
       </viewElements>
-      <actions xsi:type="dop-extension:AddedAction" id="__e_ukCwkEfCkK8d-i3isFQ" name="AddedAction" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <actions xsi:type="dop-extension:AddedAction" id="__e_ukCwkEfCkK8d-i3isFQ" name="Save Article" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
         <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_H85H8CwlEfCkK8d-i3isFQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.0"/>
       </actions>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_SXxlEDO9EfCbsOr7QTJMFg" name="Article">
+      <annotations text="Article"/>
+      <viewElementEvents id="_UyQDcDO9EfCbsOr7QTJMFg" name="Article">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_gGeJsDO9EfCbsOr7QTJMFg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.0"/>
+      </viewElementEvents>
     </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_1rAr8SzoEfCIotSHwIu3PA">
