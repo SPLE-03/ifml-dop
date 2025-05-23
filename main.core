@@ -318,6 +318,40 @@
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_IKVasDP_EfCUndBDvuKd3A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.12/@viewElements.0"/>
       </viewElementEvents>
     </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="dop-extension:Delta" id="_E-KwoDfkEfCyU8Yu12x_pQ" name="HealthFacilities" isXOR="true" uses="//@interactionFlowModel/@interactionFlowModelElements.5">
+      <viewElements xsi:type="dop-extension:Delta" id="_VtemkDfkEfCyU8Yu12x_pQ" name="HealthFacilities Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.14/@actions.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.15/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0">
+        <annotations text="/healthfacilities"/>
+        <viewElements xsi:type="dop-extension:ModifiedList" id="_cQfnoDfkEfCyU8Yu12x_pQ" name="List HealthFacilities" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0">
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_kGhvwDfkEfCyU8Yu12x_pQ" name="HealthFacilities" uniformResourceIdentifier="call/healthfacilities/list" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0/@viewComponentParts.0">
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_xzM7IDfkEfCyU8Yu12x_pQ" name="location" featureConcept="//@domainModel/@domainElements.60"/>
+          </viewComponentParts>
+        </viewElements>
+      </viewElements>
+      <viewElements xsi:type="dop-extension:Delta" id="_SPowQDfwEfCyU8Yu12x_pQ" name="Create HealthFacilities Page" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1">
+        <annotations text="/healthfacilities/create"/>
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_hjpF0DfwEfCyU8Yu12x_pQ" name="Modified Form" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1/@viewElements.0">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_hXj8MDfxEfCyU8Yu12x_pQ" name="Create HealthFacilities">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_l1kYkDfxEfCyU8Yu12x_pQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.14/@actions.0"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_p5vOEDfwEfCyU8Yu12x_pQ" name="location">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_0vIqUDfwEfCyU8Yu12x_pQ" name="location">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+        </viewElements>
+      </viewElements>
+      <actions xsi:type="dop-extension:AddedAction" id="_7I624DfwEfCyU8Yu12x_pQ" name="Save HealthFacilities" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.14/@viewElements.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_x0fBoDfxEfCyU8Yu12x_pQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.14/@viewElements.0"/>
+      </actions>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_4HreADfxEfCyU8Yu12x_pQ" name="HealthFacilities">
+      <annotations text="HealthFacilities"/>
+      <viewElementEvents id="_-C104DfxEfCyU8Yu12x_pQ" name="HealthFacilities">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_EfAnEDfyEfCyU8Yu12x_pQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.14/@viewElements.0"/>
+      </viewElementEvents>
+    </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_r6lsoTPsEfCo74dYEhpngQ">
     <domainElements xsi:type="core:UMLBehavioralFeature" id="_r7Fb4DPsEfCo74dYEhpngQ" name="update">
