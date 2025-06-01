@@ -142,14 +142,17 @@
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_0UJRoCwiEfCkK8d-i3isFQ" name="Information" isXOR="true">
       <viewElements xsi:type="core:ViewContainer" id="_Bh7hkCwjEfCkK8d-i3isFQ" name="Information Page">
+        <viewElementEvents id="_fPmHkD7rEfCuN4OyEJ_XNw" name="Create Information">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_h0S48D7rEfCuN4OyEJ_XNw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1"/>
+        </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_EwXMcCwjEfCkK8d-i3isFQ" name="List Information">
           <viewComponentParts xsi:type="core:DataBinding" id="_InGNcCwjEfCkK8d-i3isFQ" name="Information" uniformResourceIdentifier="call/information/list">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_SI3eoCwjEfCkK8d-i3isFQ" name="informationTitle" featureConcept="//@domainModel/@domainElements.9"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_S3Sq4CwjEfCkK8d-i3isFQ" name="informationDescription" featureConcept="//@domainModel/@domainElements.4"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_S3Sq4CwjEfCkK8d-i3isFQ" name="informationDescription" featureConcept="//@domainModel/@domainElements.10"/>
           </viewComponentParts>
         </viewElements>
       </viewElements>
-      <viewElements xsi:type="core:ViewContainer" id="_UBa7sCwjEfCkK8d-i3isFQ" name="Create Information Page">
+      <viewElements xsi:type="core:ViewContainer" id="_UBa7sCwjEfCkK8d-i3isFQ" name="Create Information Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <viewElements xsi:type="ext:Form" id="_Z3RUwCwjEfCkK8d-i3isFQ" name="Information Form">
           <viewComponentParts xsi:type="ext:SimpleField" id="_zpp4QCwkEfCkK8d-i3isFQ" name="informationTitle">
             <subViewComponentParts xsi:type="ext:IFMLSlot" id="_2IHewCwkEfCkK8d-i3isFQ" name="informationTitle">
