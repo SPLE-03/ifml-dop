@@ -158,7 +158,7 @@
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </viewComponentParts>
           <viewComponentParts xsi:type="ext:SimpleField" id="_0jEzkCwkEfCkK8d-i3isFQ" name="informationDescription">
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_28TUwCwkEfCkK8d-i3isFQ" name="Slot">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_28TUwCwkEfCkK8d-i3isFQ" name="informationDescription">
               <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </subViewComponentParts>
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -203,8 +203,8 @@
     <interactionFlowModelElements xsi:type="dop-extension:Delta" id="_qZKrQDPuEfCUndBDvuKd3A" name="DoctorInformation" isXOR="true" uses="//@interactionFlowModel/@interactionFlowModelElements.5">
       <viewElements xsi:type="dop-extension:Delta" id="_IOulwDPvEfCUndBDvuKd3A" name="DoctorInformation Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.8/@actions.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.9/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0">
         <annotations text="/doctorinformation"/>
-        <viewElementEvents id="_HAap8D7vEfCwEf3SFp6odg" name="Create">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_Jw834D7vEfCwEf3SFp6odg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.8/@viewElements.1"/>
+        <viewElementEvents xsi:type="dop-extension:AddedViewElementEvent" id="_j3IhID7wEfCwEf3SFp6odg" name="Create">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_pbOb0D7wEfCwEf3SFp6odg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.8/@viewElements.1"/>
         </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_QbaTUDPvEfCUndBDvuKd3A" name="List DoctorInformation" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_XkufYDPvEfCUndBDvuKd3A" name="DoctorInformation" uniformResourceIdentifier="call/doctorinformation/list" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0/@viewComponentParts.0">
@@ -242,8 +242,8 @@
     <interactionFlowModelElements xsi:type="dop-extension:Delta" id="_3TFjADP5EfCUndBDvuKd3A" name="VaccineInfo" isXOR="true" uses="//@interactionFlowModel/@interactionFlowModelElements.5">
       <viewElements xsi:type="dop-extension:Delta" id="_JDkiEDP6EfCUndBDvuKd3A" name="VaccineInfo Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.10/@actions.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.11/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0">
         <annotations text="/vaccineinfo"/>
-        <viewElementEvents id="_O650QD7vEfCwEf3SFp6odg" name="Create">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_QXK98D7vEfCwEf3SFp6odg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.1"/>
+        <viewElementEvents xsi:type="dop-extension:AddedViewElementEvent" id="_wSU2gD7wEfCwEf3SFp6odg" name="Create">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_yEKnkD7wEfCwEf3SFp6odg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.1"/>
         </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_NddTcDP6EfCUndBDvuKd3A" name="List VaccineInfo" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_TykbYDP6EfCUndBDvuKd3A" name="VaccineInfo" uniformResourceIdentifier="call/vaccineinfo/list" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0/@viewComponentParts.0">
@@ -293,8 +293,8 @@
     <interactionFlowModelElements xsi:type="dop-extension:Delta" id="_HH8bgDP9EfCUndBDvuKd3A" name="DrugInformation" isXOR="true" uses="//@interactionFlowModel/@interactionFlowModelElements.5">
       <viewElements xsi:type="dop-extension:Delta" id="_PBB3oDP9EfCUndBDvuKd3A" name="DrugInformation Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.12/@actions.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.13/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0">
         <annotations text="/druginformation"/>
-        <viewElementEvents id="_SptoUD7vEfCwEf3SFp6odg" name="Create">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_T85ugD7vEfCwEf3SFp6odg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.12/@viewElements.1"/>
+        <viewElementEvents xsi:type="dop-extension:AddedViewElementEvent" id="_0_4KwD7wEfCwEf3SFp6odg" name="Create">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_6M5pQD7wEfCwEf3SFp6odg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.12/@viewElements.1"/>
         </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_TjFtkDP9EfCUndBDvuKd3A" name="List DrugInformation" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_V9bCADP9EfCUndBDvuKd3A" name="DrugInformation" uniformResourceIdentifier="call/druginformation/list" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0/@viewComponentParts.0">
