@@ -142,9 +142,6 @@
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_0UJRoCwiEfCkK8d-i3isFQ" name="Information" isXOR="true">
       <viewElements xsi:type="core:ViewContainer" id="_Bh7hkCwjEfCkK8d-i3isFQ" name="Information Page">
-        <viewElementEvents id="_fPmHkD7rEfCuN4OyEJ_XNw" name="Create Information">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_h0S48D7rEfCuN4OyEJ_XNw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1"/>
-        </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_EwXMcCwjEfCkK8d-i3isFQ" name="List Information">
           <viewComponentParts xsi:type="core:DataBinding" id="_InGNcCwjEfCkK8d-i3isFQ" name="Information" uniformResourceIdentifier="call/information/list">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_SI3eoCwjEfCkK8d-i3isFQ" name="informationTitle" featureConcept="//@domainModel/@domainElements.9"/>
@@ -152,7 +149,7 @@
           </viewComponentParts>
         </viewElements>
       </viewElements>
-      <viewElements xsi:type="core:ViewContainer" id="_UBa7sCwjEfCkK8d-i3isFQ" name="Create Information Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElements xsi:type="core:ViewContainer" id="_UBa7sCwjEfCkK8d-i3isFQ" name="Create Information Page">
         <viewElements xsi:type="ext:Form" id="_Z3RUwCwjEfCkK8d-i3isFQ" name="Information Form">
           <viewComponentParts xsi:type="ext:SimpleField" id="_zpp4QCwkEfCkK8d-i3isFQ" name="informationTitle">
             <subViewComponentParts xsi:type="ext:IFMLSlot" id="_2IHewCwkEfCkK8d-i3isFQ" name="informationTitle">
@@ -206,6 +203,9 @@
     <interactionFlowModelElements xsi:type="dop-extension:Delta" id="_qZKrQDPuEfCUndBDvuKd3A" name="DoctorInformation" isXOR="true" uses="//@interactionFlowModel/@interactionFlowModelElements.5">
       <viewElements xsi:type="dop-extension:Delta" id="_IOulwDPvEfCUndBDvuKd3A" name="DoctorInformation Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.8/@actions.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.9/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0">
         <annotations text="/doctorinformation"/>
+        <viewElementEvents id="_HAap8D7vEfCwEf3SFp6odg" name="Create">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_Jw834D7vEfCwEf3SFp6odg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.8/@viewElements.1"/>
+        </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_QbaTUDPvEfCUndBDvuKd3A" name="List DoctorInformation" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_XkufYDPvEfCUndBDvuKd3A" name="DoctorInformation" uniformResourceIdentifier="call/doctorinformation/list" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0/@viewComponentParts.0">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_dBqCIDPvEfCUndBDvuKd3A" name="specialist">
@@ -214,7 +214,7 @@
           </viewComponentParts>
         </viewElements>
       </viewElements>
-      <viewElements xsi:type="dop-extension:Delta" id="_0I8t0DPvEfCUndBDvuKd3A" name="Create DoctorInformation Page" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1">
+      <viewElements xsi:type="dop-extension:Delta" id="_0I8t0DPvEfCUndBDvuKd3A" name="Create DoctorInformation Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.8/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1">
         <annotations text="/doctorinformation/create"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_3VydQDPvEfCUndBDvuKd3A" name="Modified Form" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1/@viewElements.0">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_IaRi4DP5EfCUndBDvuKd3A" name="Create DoctorInformation">
@@ -242,6 +242,9 @@
     <interactionFlowModelElements xsi:type="dop-extension:Delta" id="_3TFjADP5EfCUndBDvuKd3A" name="VaccineInfo" isXOR="true" uses="//@interactionFlowModel/@interactionFlowModelElements.5">
       <viewElements xsi:type="dop-extension:Delta" id="_JDkiEDP6EfCUndBDvuKd3A" name="VaccineInfo Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.10/@actions.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.11/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0">
         <annotations text="/vaccineinfo"/>
+        <viewElementEvents id="_O650QD7vEfCwEf3SFp6odg" name="Create">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_QXK98D7vEfCwEf3SFp6odg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.1"/>
+        </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_NddTcDP6EfCUndBDvuKd3A" name="List VaccineInfo" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_TykbYDP6EfCUndBDvuKd3A" name="VaccineInfo" uniformResourceIdentifier="call/vaccineinfo/list" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0/@viewComponentParts.0">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_XgRcMDP6EfCUndBDvuKd3A" name="vaccinationLocation" featureConcept="//@domainModel/@domainElements.69"/>
@@ -250,7 +253,7 @@
           </viewComponentParts>
         </viewElements>
       </viewElements>
-      <viewElements xsi:type="dop-extension:Delta" id="_9CW9gDP6EfCUndBDvuKd3A" name="Create VaccineInfo Page" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1">
+      <viewElements xsi:type="dop-extension:Delta" id="_9CW9gDP6EfCUndBDvuKd3A" name="Create VaccineInfo Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1">
         <annotations text="/vaccineinfo/create"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_LFfhEDP7EfCUndBDvuKd3A" name="Modified Form" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1/@viewElements.0">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_9vzc4DP7EfCUndBDvuKd3A" name="Create VaccineInfo">
@@ -290,13 +293,16 @@
     <interactionFlowModelElements xsi:type="dop-extension:Delta" id="_HH8bgDP9EfCUndBDvuKd3A" name="DrugInformation" isXOR="true" uses="//@interactionFlowModel/@interactionFlowModelElements.5">
       <viewElements xsi:type="dop-extension:Delta" id="_PBB3oDP9EfCUndBDvuKd3A" name="DrugInformation Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.12/@actions.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.13/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0">
         <annotations text="/druginformation"/>
+        <viewElementEvents id="_SptoUD7vEfCwEf3SFp6odg" name="Create">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_T85ugD7vEfCwEf3SFp6odg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.12/@viewElements.1"/>
+        </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_TjFtkDP9EfCUndBDvuKd3A" name="List DrugInformation" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_V9bCADP9EfCUndBDvuKd3A" name="DrugInformation" uniformResourceIdentifier="call/druginformation/list" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0/@viewComponentParts.0">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_YTp5kDP9EfCUndBDvuKd3A" name="dosage" featureConcept="//@domainModel/@domainElements.66"/>
           </viewComponentParts>
         </viewElements>
       </viewElements>
-      <viewElements xsi:type="dop-extension:Delta" id="_z-CV8DP9EfCUndBDvuKd3A" name="Create DrugInformation Page" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1">
+      <viewElements xsi:type="dop-extension:Delta" id="_z-CV8DP9EfCUndBDvuKd3A" name="Create DrugInformation Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.12/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0" uses="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1">
         <annotations text="/druginformation/create"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_84OCsDP9EfCUndBDvuKd3A" name="Modified Form" modifies="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1/@viewElements.0">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_QQ2EQDP-EfCUndBDvuKd3A" name="Create DrugInformation">
